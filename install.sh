@@ -1,4 +1,6 @@
-
+#!/bin/bash
+#based on https://docs.nginx.com/nginx-management-suite/installation/vm-bare-metal/prerequisites/
+#created Aug 2023
 #Download Certificate and Key
 sudo mkdir -p /etc/ssl/nginx
 sudo mv <nginx-mgmt-suite-trial.crt> /etc/ssl/nginx/nginx-repo.crt
